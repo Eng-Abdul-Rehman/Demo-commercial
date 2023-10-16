@@ -1,14 +1,16 @@
-import { Theme } from "@mui/material";
-
+import { Theme } from "@mui/material/styles";
+import { palette } from "../Palette";
 
 export const MuiButton = (theme: Theme) => {
-    return {
-      MuiButton: {
-        styleOverrides: {
-          text: {
-            // Your custom styles for the MuiButton text variant go here
-          },
+  return {
+    MuiButton: {
+      styleOverrides: {
+        // root: {
+        ".MuiButtonBase-root": {
+          color: palette.success,
+          //  }
         },
       },
-    };
+    },
   };
+};

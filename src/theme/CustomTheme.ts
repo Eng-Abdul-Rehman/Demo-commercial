@@ -1,9 +1,8 @@
-import { ThemeOptions, createTheme } from '@mui/material';
-import { palette } from './Palette';
-import { overrides } from './overrides';
-import { typography } from './Typography';
-import { CustomTypography } from './CustomTypography';
-// import { createTheme } from '@mui/system';
+import { ThemeOptions, createTheme } from "@mui/material";
+import { palette } from "./Palette";
+import { overrides } from "./overrides";
+import { typography } from "./Typography";
+import { CustomTypography } from "./CustomTypography";
 
 const themeOptions: ThemeOptions = {
   breakpoints: {

@@ -1,44 +1,44 @@
 import { TypographyOptions } from '@mui/material/styles/createTypography';
 
 export const typography: TypographyOptions = {
-  fontFamily: 'Nexa',
+  fontFamily: 'sans-serif',
   h1: {
-    // fontFamily: "Nexa",
+    // fontFamily: "sans-serif",
     fontSize: '56px',
     lineHeight: '100%',
     // fontKerning: "0%",
     fontWeight: 700,
   },
   h2: {
-    // fontFamily: "Nexa",
+    // fontFamily: "sans-serif",
     fontSize: '48px',
     lineHeight: '100%',
     // fontKerning: "0%",
     fontWeight: 700,
   },
   h3: {
-    fontFamily: 'Nexa',
+    fontFamily: 'sans-serif',
     fontSize: '40px',
     lineHeight: '100%',
     // fontKerning: "0%",
     fontWeight: 700,
   },
   h4: {
-    fontFamily: 'Nexa',
+    fontFamily: 'sans-serif',
     fontSize: '32px',
     lineHeight: '100%',
     // fontKerning: "0%",
     fontWeight: 700,
   },
   h5: {
-    fontFamily: 'Nexa',
+    fontFamily: 'sans-serif',
     fontSize: '24px',
     lineHeight: '100%',
     // fontKerning: "0%",
     fontWeight: 700,
   },
   h6: {
-    fontFamily: 'Nexa',
+    fontFamily: 'sans-serif',
     fontSize: '16px',
     lineHeight: '100%',
     // fontKerning: "0%",
